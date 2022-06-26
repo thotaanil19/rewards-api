@@ -15,3 +15,10 @@ Customer rewards-api with H2 DB
 3. These files will be loaded into in memory H2 DB on server start up and after server stopping the loaded data will be vanished.
 4. Table "REWARDS_CONFIGURATION" contain the rewards percentage for purchase amount.
 5. Table "ORDERS" contains the customer orders.
+6. Upon server startup, we can access the H2 DB console using following URL.
+ 
+	http://localhost:8080/h2-console/
+	
+	JDBC URL: jdbc:h2:mem:demodb
+	UserName: sa
+	password: 
