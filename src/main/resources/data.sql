@@ -1,0 +1,13 @@
+
+insert into REWARDS_CONFIGURATION (PRICE, REWARDS) values (100.00, 2.00);
+insert into REWARDS_CONFIGURATION (PRICE, REWARDS) values (50.00, 1.00);
+
+insert into ORDERS (CUSTOMER_ID, ORDER_DATE, PRICE ) values (2,'2022-04-10', 120.03);
+insert into ORDERS (CUSTOMER_ID, ORDER_DATE, PRICE ) values (2,'2022-04-15', 133.93);
+insert into ORDERS (CUSTOMER_ID, ORDER_DATE, PRICE ) values (2,'2022-04-20', 233.23);
+
+insert into ORDERS (CUSTOMER_ID, ORDER_DATE, PRICE ) values (2,'2022-05-05', 120.00);
+
+insert into ORDERS (CUSTOMER_ID, ORDER_DATE, PRICE ) values (2,'2022-06-05', 10.00);
+insert into ORDERS (CUSTOMER_ID, ORDER_DATE, PRICE ) values (2,'2022-06-10', 16.30);
+insert into ORDERS (CUSTOMER_ID, ORDER_DATE, PRICE ) values (2,'2022-06-15', 15.15);
